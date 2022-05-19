@@ -1,0 +1,161 @@
+body {
+    background-image: url("backgroundimg.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+}
+
+#hiddengem {
+    visibility: hidden;
+}
+
+a {
+    color: white;
+}
+
+
+#div1 {
+    display: flex;
+    color: #f2f2f2;
+    flex-direction: column;
+    padding: 14px;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: fit-content;
+    height: 50rem;
+    justify-content: space-between;
+    float: left;
+}
+
+.opaclogo{
+    opacity: 50%;
+    position: relative;
+}
+
+#button {
+    margin: 3rem;
+}
+
+img {
+    max-height: 5rem;
+    max-width: 5rem;
+}
+
+.div2text {
+    color: white;
+    font-family: sans-serif;
+}
+
+#about {
+    display: flex;
+    padding: 14px;
+    flex-direction: column;
+    margin-left: 6rem;
+    font-size: 17px;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+}
+
+#button {
+    display: flex;
+    padding: 14px;
+    font-size: 57px;
+    justify-content: center;
+    align-items: top;
+}
+
+.MUSICBUTTON {
+    background-color: black;
+}
+
+.play {
+    color: #f2f2f2;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    width: auto;  
+}
+
+div#playingnow {
+    display: flex;
+    justify-content: center; }
+
+#playbutton {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+
+#pic {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+button {
+    margin: 2rem;
+    cursor: pointer
+}
+
+.songimg {
+    display: flex;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.songtitle {
+    display: flex;
+    font-size: 2rem;
+    width: auto;
+    color: #cccccc;
+}
+
+.divtitle {
+    display: flex;
+}
+.donatey{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.dadiv:hover {
+background-color: rgba(0, 0, 255    , 0.25);
+}
+
+.dudubigpic{
+    max-width: 10rem;
+    max-height: 10rem;
+
+}
+
+.shon{
+    
+    display: flex;
+    flex-direction: column  ;
+    align-self: center;
+    cursor: pointer;
+    flex-wrap: wrap-reverse;
+    margin-left: 3rem;
+}
+
+.shon:hover{
+    
+    display: flex;  
+    align-self: center;
+    flex-direction: column ;
+    cursor: pointer;
+    opacity:50%;
+    justify-self: flex-end  ;
+}
+
+.dadiv{
+    display: flex;
+}
+    
